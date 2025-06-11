@@ -87,13 +87,12 @@ void Battle::start()
 
         int enemy_attack_selection = 1 + rand() % 2;
 
-        if (player_attack_selection == 1)
+        if (enemy_attack_selection == 1)
         {
             enemy->do_basic_attack(*player);
         }
         else
         {
-
             enemy->do_powerful_attack(*player);
         }
 
