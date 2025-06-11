@@ -64,7 +64,7 @@ void Battle::start()
 
         int player_attack_selection;
 
-        cout << "Choose attack \n\n 1. Basic attack \n 2. Poweful attack \n\n";
+        cout << "Choose attack \n\n 1. Basic attack \n 2. Powerful attack \n\n";
         cin >> player_attack_selection;
 
         if (player_attack_selection == 1)
