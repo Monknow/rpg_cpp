@@ -12,7 +12,7 @@ public:
     Character();
     Character(int instance_health, string instance_name);
     void receive_damage(int enemy_damage);
-    void set_health(int new_healt);
+    void set_health(int new_health);
     int get_health();
     void set_name(string new_name);
     string get_name();

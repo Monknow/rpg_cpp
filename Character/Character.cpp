@@ -32,9 +32,9 @@ void Character::do_basic_attack(Character &enemy)
     basic_attack.execute(enemy);
 };
 
-void Character::set_health(int new_healt)
+void Character::set_health(int new_health)
 {
-    health = new_healt;
+    health = new_health;
 };
 
 int Character::get_health()
