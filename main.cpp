@@ -13,6 +13,7 @@ int main()
     // Set seed for random numbers on Dice
     srand(time(0));
 
+    // Set as a pointer for late binding
     Character *character;
     int player_selection;
     string player_name;

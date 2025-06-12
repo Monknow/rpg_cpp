@@ -38,6 +38,7 @@ int Attack::calculate_damage()
     }
 };
 
+// Pass enemy as reference so it modifies original enemy object
 void Attack::execute(Character &enemy)
 {
     enemy.receive_damage(calculate_damage());
