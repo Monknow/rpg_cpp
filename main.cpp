@@ -29,13 +29,13 @@ int main()
     switch (player_selection)
     {
     case 1:
-        character = new Bard(20, player_name, 5);
+        character = new Bard(30, player_name, 3);
         break;
     case 2:
-        character = new Knight(20, player_name, 5);
+        character = new Knight(25, player_name, 4);
         break;
     case 3:
-        character = new Mage(20, player_name, 5);
+        character = new Mage(15, player_name, 8);
         break;
     case 4:
         character = new Ranger(20, player_name, 5);
